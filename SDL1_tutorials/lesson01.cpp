@@ -1,9 +1,6 @@
 // Include SDL1 functions and datatypes
 #include <SDL.h>
 
-#pragma comment(lib, "SDL.lib")
-#pragma comment(lib, "SDLmain.lib")
-
 int main(int argc, char* argv[]) {
 	// Surface pointers
 	SDL_Surface* hello = NULL;
